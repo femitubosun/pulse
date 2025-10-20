@@ -1,13 +1,16 @@
 {
-  "name": "@fate/pulse",
+  "name": "@fatehq/pulse",
   "description": "Type-safe business action framework for sync and async operations.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/femitubosun/fate-pulse",
+  "homepage": "https://github.com/fatehq/pulse",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
-    "url": "https://github.com/femitubosun/fate-pulse"
+    "url": "https://github.com/fatehq/pulse"
   },
   "scripts": {
     "build": "tsup"
