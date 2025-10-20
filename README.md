@@ -1,4 +1,5 @@
-# The pulse system is a **type-safe business logic framework** built on BullMQ that handles both synchronous and asynchronous operations.
+# Pulse
+The pulse system is a **type-safe business logic framework** built on BullMQ that handles both synchronous and asynchronous operations.
 
 ## Core Concept
 

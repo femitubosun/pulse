@@ -5,6 +5,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/femitubosun/fate-pulse",
+  "repository": {
+    "url": "https://github.com/femitubosun/fate-pulse"
+  },
   "scripts": {
     "build": "tsup"
   },
