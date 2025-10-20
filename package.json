@@ -1,0 +1,39 @@
+{
+  "name": "@fate/pulse",
+  "description": "Type-safe business action framework for sync and async operations.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "actions",
+    "business-logic",
+    "framework",
+    "bullmq",
+    "queue",
+    "async",
+    "sync",
+    "runtime",
+    "workflow",
+    "task-runner",
+    "type-safe",
+    "zod",
+    "typescript",
+    "rpc",
+    "execution",
+    "cron",
+    "job-queue",
+    "backend-framework",
+    "fate",
+    "pulse"
+  ],
+  "author": "femitubosun",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
