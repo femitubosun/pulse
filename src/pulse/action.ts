@@ -5,7 +5,7 @@ export class ActionDef<Input extends z.ZodType, Output extends z.ZodType> {
   public _input?: Input;
   public _output?: Output;
   public _isSync = false;
-  public _settings?: Partial<any>;
+  public _settings?: Partial<QSettings>;
 
   constructor(public readonly name: string) {}
 
